@@ -1,0 +1,128 @@
+# Additional taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"/
+tap "homebrew/core"
+tap "homebrew/cask-drivers"
+tap "homebrew/services"
+tap "federico-terzi/espanso"
+tap "homebrew-ffmpeg/ffmpeg"
+tap"mczachurski/wallpapper"
+tap "benwebber/tunnelblickctl"
+brew "mackup"
+brew "mas"
+brew "node"
+
+# Hardware Support
+cask "burn"
+cask "blackhole"
+cask "duet"
+cask "epoccam"
+cask "monitorcontrol"
+cask "paragon-ntfs"
+cask "gopro-webcam"
+cask "ftdi-vcp-driver"
+mas "Disk Speed Test", id: 425264550
+
+#DE
+cask "bartender"
+cask "spaceman"
+cask "spaceman"
+cask "rectangle"
+cask "intellidock"
+cask "hocus-focus"
+cask "ubersicht"
+mas "DragQueen", id: 962747601
+
+# Utility
+cask "boop"
+cask "cheatsheet"
+cask "espanso"
+cask "fluor"
+cask "keka"
+cask "kekaexternalhelper"
+cask "openinterminal-lite"
+mas "Amphetamine", id: 937984704
+mas "TeraCopy", id: 1378806557
+
+# System Configuration & Maintenance
+brew "tccutil"
+brew "organize-tool"
+brew "wallpapper"
+cask "appcleaner"
+cask "clean-me"
+mas "CleanMyDrive 2", id: 523620159
+
+# Security
+brew "tor", restart_service: false
+cask "1password6"
+cask "cryptomator"
+cask "knockknock"
+cask "suspicious-package"
+cask "veracrypt"
+cask "little-snitch"
+cask "micro-snitch"
+cask "tunnelblick"
+cask "disk-arbitrator"
+mas "NordVPN IKE", id: 1116599239
+
+# Browser
+cask "chromium"
+cask "firefox"
+
+# Communications
+cask "pliim"
+#cask "krisp"
+cask "utterly"
+cask "zoom"
+cask "signal"
+cask "microsoft-teams"
+
+# Office & Productivity
+cask "pdf-expert"
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pomosh", id: 1515791898
+mas "Table Tool", id: 1122008420
+
+# Browsers
+cask "chromium"
+cask "firefox"
+
+# Other
+cask "anki"
+mas "Parcel", id: 639968404
+
+#Newsfeed
+mas "Reeder", id: 1529448980
+mas "Comet", id: 1146204813
+
+# Multimedia
+brew "homebrew-ffmpeg/ffmpeg/ffmpeg --with-vorbis --with-opus"
+cask "iina"
+cask "spotify"
+cask "xld"
+cask "obs"
+cask "obs-virtualcam"
+cask "pika"
+mas "iMovie", id: 408981434
+mas "GarageBand", id: 682658836
+
+# Developing
+brew "python@3.10"
+cask "cyberduck"
+cask "iterm2"
+cask "vscodium"
+mas "Snip", id: 1527428847
+mas "CotEditor", id: 1024640650
+#cask "powershell"
+#mas "Xcode", id: 497799835
+
+# CLI/TUI
+brew "task"
+brew "taskwarrior-tui"
+brew "timewarrior"
+brew "spotifyd", restart_service: false
+brew "spotify-tui"
+brew "tunnelblickctl"

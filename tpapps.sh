@@ -1,6 +1,4 @@
-# Sources:
-#		- https://macos-defaults.com/
-#		- https://ss64.com/osx/syntax-defaults.html
+# Settings for third-party apps
 
 ## NordVPN
 defaults write com.nordvpn.osx-apple  appIcon -int 1
@@ -40,12 +38,11 @@ defaults write com.aone.keka SetAsDefaultApp -bool true
 ## Open in Terminal Lite
 defaults write wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal -string iTerm
 
-
+## Turbo Boost Switch Pro
 defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro disableAtLaunch -bool true
-
 defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isMonitoringEnabled -bool true
 defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isTurboBoostDisabledNotification -bool false
-defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro  isTurboBoostEnabledNotification -bool true
+defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isTurboBoostEnabledNotification -bool true
 
 
 

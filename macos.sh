@@ -1,5 +1,5 @@
 #!/bin/bash
-#.macos
+
 #Enable startup chime on Mac
 sudo nvram StartupMute=%00
 
@@ -57,6 +57,12 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Security
 ## Destroy Filevault keys on standby
 sudo pmset -a destroyfvkeyonstandby 1
+sudo pmset -a hibernatemode 25
+
+sudo pmset -a powernap 0
+sudo pmset -a standby 0
+sudo pmset -a standbydelay 0
+sudo pmset -a autopoweroff 0
 
 ## Disable Captive Portal
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false
@@ -85,6 +91,16 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.SubmitDiagInfo.
 # Trackpad and Mouse
 ## Enable Tap to Click on Trackpad
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+
+## Enable two buttons and left-handed Magic Mouse
+defaults write com.apple.AppleMultitouchMouse MouseButtonMode -string TwoButtonSwapped
+
+## Set Magic Mouse gestures
+defaults write com.apple.AppleMultitouchMouse MouseOneFingerDoubleTapGesture -int 0
+defaults write com.apple.AppleMultitouchMouse MouseTwoFingerDoubleTapGesture -int 3
+defaults write com.apple.AppleMultitouchMouse MouseTwoFingerHorizSwipeGesture -int 2
+defaults write com.apple.AppleMultitouchMouse MouseVerticalScroll -int 1
+defaults write com.apple.AppleMultitouchMouse UserPreferences -int 1
 
 # Siri
 defaults write com.apple.Siri  StatusMenuVisible -bool false

@@ -126,3 +126,17 @@ brew "timewarrior"
 brew "spotifyd", restart_service: false
 brew "spotify-tui"
 brew "tunnelblickctl"
+brew "timg"
+brew "darkmode"
+brew "lazygit"
+brew "syncthing"
+brew "mdcat"
+brew "glow"
+
+
+# Forensic Toolkit
+brew "sleuthkit"
+brew "dcfldd"
+brew "dc3dd"
+
+

@@ -44,5 +44,7 @@ defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isMonitoringEnabled -b
 defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isTurboBoostDisabledNotification -bool false
 defaults write rugarciap.com.Turbo-Boost-Switcher-Pro-Pro isTurboBoostEnabledNotification -bool true
 
+## Cot
+
 
 

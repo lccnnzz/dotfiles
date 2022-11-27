@@ -1,4 +1,4 @@
-# Additionaltap s
+# Additional taps
 tap "homebrew/bundle"
 tap "homebrew/cask "
 tap "homebrew/cask-versions"
@@ -51,6 +51,7 @@ cask "keka"
 cask "kekaexternalhelper"
 cask "openinterminal-lite"
 cask "alt-tab"
+cask "flycut"
 mas "Amphetamine",id:937984704
 mas "TeraCopy",id:1378806557
 
@@ -94,12 +95,7 @@ cask "microsoft-teams"
 cask "pdf-expert"
 cask "skim"
 cask "appflowy"
-mas "Keynote",id:409183694
-mas "Numbers",id:409203825
-mas "Pages",id:409201541
-mas "Pomosh",id:1515791898
-mas "TableTool",id:1122008420
-
+cask "logseq"
 
 # Browsers
 cask "chromium"
@@ -131,16 +127,22 @@ cask "vscodium"
 mas "Snip",id:1527428847
 mas "CotEditor",id:1024640650
 
-# #Python
+## Python
 brew "pyenv"
 brew "virtualenv"
+brew "pyenv-virtualenv"
 brew "tcl-tk"
+cask "jupyter-notebook-viewer"
+
+## Container
+brew "hyperkit"
+brew "minikube"
 
 # CLI/TUI
 brew "task"
 brew "taskwarrior-tui"
 brew "timewarrior"
-brew "spotifyd",restart_service:false
+brew "spotifyd", restart_service:false
 brew "spotify-tui"
 brew "tunnelblickctl"
 brew "timg"
@@ -151,11 +153,26 @@ brew "mdcat"
 brew "glow"
 brew "termshark"
 brew "m-cli"
+brew "aria2"
+brew "bitwarden-cli"
+brew "fswatch"
+brew "jrnl"
 
+## ZSH Customization
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # ForensicToolkit
 brew "sleuthkit"
 brew "dcfldd"
 brew "dc3dd"
+brew "mitmproxy"
+brew "httpie"
+brew "tcpdump"
+brew "hashcat"
+cask "autopsy"
+cask "wireshark"
+
 
 

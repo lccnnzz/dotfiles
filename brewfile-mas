@@ -1,0 +1,42 @@
+# Mac App Store 
+brew "mas"
+
+# Hardware Support
+mas "Disk Speed Test", id: 425264550
+
+# DE UX
+mas "DragQueen", id: 962747601
+
+# OS Utility
+mas "Amphetamine", id: 937984704
+mas "TeraCopy", id: 1378806557
+
+# System Configuration & Maintenance
+mas "CleanMyDrive 2", id: 523620159
+
+# Office & Productivity
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Pomosh", id: 1515791898
+mas "Table Tool", id: 1122008420
+
+# Security & Privacy 
+mas "NordVPN: VPN veloce illimitata", "905953485"
+
+# Other
+mas "Parcel", id: 639968404
+
+#Newsfeed
+mas "Reeder", id: 1529448980
+mas "Comet", id: 1146204813
+
+# Multimedia
+mas "iMovie", id: 408981434
+mas "GarageBand", id: 682658836
+
+# Developing
+mas "Snip", id: 1527428847
+mas "CotEditor", id: 1024640650
+mas "WorldWideWeb – Desktop", id: 1621370168
+#mas "Xcode", id: 497799835

@@ -22,7 +22,6 @@ cask "monitorcontrol"
 cask "paragon-ntfs"
 cask "gopro-webcam"
 cask "ftdi-vcp-driver"
-mas "DiskSpeedTest",id:425264550
 
 # DE
 cask "bartender"
@@ -33,7 +32,6 @@ cask "intellidock"
 cask "hocus-focus"
 cask "ubersicht"
 cask "alt-tab"
-mas "DragQueen",id:962747601
 
 ## QuickLook Plugins
 brew "qlmarkdown"
@@ -52,8 +50,6 @@ cask "kekaexternalhelper"
 cask "openinterminal-lite"
 cask "alt-tab"
 cask "flycut"
-mas "Amphetamine",id:937984704
-mas "TeraCopy",id:1378806557
 
 # System Configuration & Maintenance
 brew "tccutil"
@@ -62,7 +58,6 @@ brew "organize-tool"
 brew "wallpapper"
 cask "appcleaner"
 cask "clean-me"
-mas "CleanMyDrive2",id:523620159
 
 # Security
 brew "tor",restart_service:false
@@ -80,9 +75,6 @@ cask "linkliar"
 # Browser
 cask "chromium"
 cask "firefox"
-
-# #Safari Addons
-mas "AdGuardforSafari",id:1440147259
 
 # Communications
 cask "pliim"
@@ -124,8 +116,6 @@ mas "GarageBand",id:682658836
 cask "cyberduck"
 cask "iterm2"
 cask "vscodium"
-mas "Snip",id:1527428847
-mas "CotEditor",id:1024640650
 
 ## Python
 brew "pyenv"
@@ -173,6 +163,3 @@ brew "tcpdump"
 brew "hashcat"
 cask "autopsy"
 cask "wireshark"
-
-
-

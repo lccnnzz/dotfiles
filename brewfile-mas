@@ -12,7 +12,7 @@ mas "Amphetamine", id: 937984704
 mas "TeraCopy", id: 1378806557
 
 # System Configuration & Maintenance
-mas "CleanMyDrive 2", id: 523620159
+mas "CleanMyDrive2", id: 523620159
 
 # Office & Productivity
 mas "Keynote", id: 409183694
@@ -23,6 +23,9 @@ mas "Table Tool", id: 1122008420
 
 # Security & Privacy 
 mas "NordVPN: VPN veloce illimitata", "905953485"
+
+##Safari Addons
+mas "AdGuardforSafari",id:1440147259
 
 # Other
 mas "Parcel", id: 639968404

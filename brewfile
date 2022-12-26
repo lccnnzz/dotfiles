@@ -145,6 +145,7 @@ brew "m-cli"
 brew "aria2"
 brew "bitwarden-cli"
 brew "fswatch"
+brew "watchman"
 brew "jrnl"
 brew "rclone"
 

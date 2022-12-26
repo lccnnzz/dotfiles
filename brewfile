@@ -10,22 +10,23 @@ tap "homebrew-ffmpeg/ffmpeg"
 tap "mczachurski/wallpapper"
 tap "benwebber/tunnelblickctl"
 brew "mackup"
-brew "mas "
+brew "mas"
 brew "node"
 
 # Hardware Support
 cask "burn"
-cask "blackhole"
+cask "blackhole-16ch"
 cask "duet"
 cask "epoccam"
 cask "monitorcontrol"
 cask "paragon-ntfs"
 cask "gopro-webcam"
 cask "ftdi-vcp-driver"
+cask "logi-options-plus"
+cask "paragon-ntfs"
 
 # DE
 cask "bartender"
-cask "spaceman"
 cask "spaceman"
 cask "rectangle"
 cask "intellidock"
@@ -39,6 +40,7 @@ brew "quicklook-json"
 brew "betterzip"
 brew "suspicious-package"
 brew "qlvideo"
+brew "jupyter-notebook-ql"
 
 # Utility
 cask "boop"
@@ -50,6 +52,7 @@ cask "kekaexternalhelper"
 cask "openinterminal-lite"
 cask "alt-tab"
 cask "flycut"
+cask "ip-in-menu-bar"
 
 # System Configuration & Maintenance
 brew "tccutil"
@@ -59,7 +62,7 @@ brew "wallpapper"
 cask "appcleaner"
 cask "clean-me"
 
-# Security
+# Security/Privacy
 brew "tor",restart_service:false
 cask "cryptomator"
 cask "knockknock"
@@ -76,7 +79,7 @@ cask "linkliar"
 cask "chromium"
 cask "firefox"
 
-# Communications
+# Communication
 cask "pliim"
 cask "utterly"
 cask "zoom"
@@ -92,25 +95,21 @@ cask "logseq"
 # Browsers
 cask "chromium"
 cask "firefox"
+cask "tor-browser"
 
 # Other
 cask "anki"
-mas "Parcel",id:639968404
-
-# Newsfeed
-mas "Reeder",id:1529448980
-mas "Comet",id:1146204813
 
 # Multimedia
+brew "youtube-dl"
 brew "homebrew-ffmpeg/ffmpeg/ffmpeg--with-vorbis--with-opus"
 cask "iina"
 cask "spotify"
 cask "xld"
 cask "obs"
-cask "obs-virtualcam"
+#cask "obs-virtualcam"
 cask "pika"
-mas "iMovie",id:408981434
-mas "GarageBand",id:682658836
+cask "calibre"
 
 # Developing
 cask "cyberduck"
@@ -147,6 +146,7 @@ brew "aria2"
 brew "bitwarden-cli"
 brew "fswatch"
 brew "jrnl"
+brew "rclone"
 
 ## ZSH Customization
 brew "zsh-autosuggestions"
@@ -163,3 +163,7 @@ brew "tcpdump"
 brew "hashcat"
 cask "autopsy"
 cask "wireshark"
+
+# VM 
+brew "qemu"
+cask "utm"
